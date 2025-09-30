@@ -1,0 +1,112 @@
+.hero{
+  text-align: center;
+padding-top: 200px;
+padding-bottom: 200px;
+background-image: url("../img/hero_bg.png");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.hero_text{
+font-family: var(--font-family);
+font-weight: 900;
+font-size: 44px;
+line-height: 136%;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+text-align: center;
+color: #fff;
+}
+
+
+.hero_btn{
+width: 216px;
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 16px;
+line-height: 187%;
+letter-spacing: 0.06em;
+color: #fff;
+background-color: var(--axent-color);
+border-radius: 10px;
+transition: color 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); ;
+}
+
+
+.hero_btn:hover{
+background-color: rgb(26, 85, 168);
+}
+
+
+.section{
+  padding: 94px 0;
+}
+
+.team{
+  background-color: #F5F4FA;
+}
+
+.section_list{
+  display: flex;
+  flex-direction: row;
+    gap: 30px;
+}
+
+.section_title{
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 36px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #212121;
+margin-bottom: 50px;
+}
+
+.section_subtitle{
+  color: #212121;
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.section_layer{
+  font-family: var(--second-family);
+  position: absolute;
+ background-color: #2F303A;
+ opacity: 80%;
+ width: 370px;
+ height: 57px;
+bottom: 1px;
+ color: #fff;
+ border-radius: 3px;
+ border: 1px solid black;
+ cursor: pointer;
+z-index: 1;
+}
+
+.layer_text{
+  padding: 27px 107px;
+}
+
+.section_li{
+  position: relative;
+  
+}
+
+.layer_text{
+padding: 12px  90px;
+}
+
+.team_job{
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #757575;
+margin: 10px 0;
+}

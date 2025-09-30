@@ -1,0 +1,78 @@
+header{
+padding: 24px 0;
+}
+
+.header_logo{
+  font-family: var(--second-family);
+font-weight: 700;
+font-size: 26px;
+letter-spacing: 0.03em;
+color: #2196f3;
+margin-right: 93px;
+}
+
+.header_studio::after{
+content: "";
+position: absolute;
+display: flex;
+padding: 2px 21px;
+border-radius: 10px;
+margin-top: 7px;
+background-color: var(--axent-color);
+}
+
+
+.header_portfolio::after{
+content: "";
+position: absolute;
+display: flex;
+padding: 2px 39px;
+border-radius: 10px;
+margin-top: 7px;
+background-color: var(--axent-color);
+}
+
+.header-contact::after{
+  content: "";
+position: absolute;
+display: flex;
+padding: 2px 33px;
+border-radius: 10px;
+margin-top: 7px;
+background-color: var(--axent-color);
+}
+
+.header_list{
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+}
+
+.header_contact{
+  display: flex;
+  margin-left: auto;
+  gap: 50px;
+  align-items: center;
+}
+
+.header_item{
+  transition: color 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); ;
+
+}
+
+.header_contact_item{
+      transition: color 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); ;
+}
+
+.header_item:hover{
+color: var(--axent-color);
+}
+
+
+.header_contact_item:hover{
+color: var(--axent-color);
+}
