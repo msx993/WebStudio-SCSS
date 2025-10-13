@@ -1,3 +1,5 @@
+@import "common", "reset", "footer", "header", "icon", "main", "modal", "portfolio", "mixins", "variable";
+
 :root{
   --text-color: #757575;
   --secondary-text-color: #2F303A;
@@ -66,7 +68,6 @@ background-color: var(--axent-color);
 
 .header_list{
   display: flex;
-
   flex-direction: row;
   align-items: center;
   gap: 50px;
