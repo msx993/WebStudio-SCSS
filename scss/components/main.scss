@@ -110,3 +110,15 @@ text-align: center;
 color: #757575;
 margin: 10px 0;
 }
+
+.btn_list{
+display: flex;
+justify-content: center;
+gap: 8px;
+margin-bottom: 50px;
+}
+
+.div_box{
+  position: relative;
+  overflow: hidden;
+}
