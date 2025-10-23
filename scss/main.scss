@@ -1,12 +1,12 @@
-@import"./base/common";
 @import"./base/reset";
+@import"./utils/mixins.scss";
+@import"./utils/variable.scss";
+@import"./base/common";
 @import"./components/footer.scss";
 @import"./components/header.scss";
 @import"./components/icon.scss";
 @import"./components/main.scss";
 @import"./components/modal.scss";
 @import"./components/portfolio.scss";
-@import"./utils/mixins.scss";
-@import"./utils/variable.scss";
 
 
