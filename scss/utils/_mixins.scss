@@ -27,9 +27,8 @@ background-color: var(--axent-color);
  @extend .header_item
 }
 
-
 .button_label{
-   @extend .header_item
+  @extend .header_item
 }
 
 .header_item:hover{
