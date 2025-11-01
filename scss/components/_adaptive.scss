@@ -123,3 +123,73 @@ color: var(--axent-color);
 color: var(--axent-color);
 }
 }
+
+
+
+  // мобілбне меню
+
+
+@media screen and (max-width: 767px){
+
+  .header_list{
+display: none;
+  }
+  
+  .container{
+    outline: 1px solid green;
+}
+
+}
+
+
+@media screen and (min-width: 768px){
+
+  .menu-toggle{
+    display: none;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   // мобілбне меню
