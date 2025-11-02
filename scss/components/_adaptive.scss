@@ -131,13 +131,14 @@ color: var(--axent-color);
 
 @media screen and (max-width: 767px){
 
-  .header_list{
+  .header_list .header_contact{
 display: none;
   }
   
   .container{
     outline: 1px solid green;
 }
+
 
 }
 
