@@ -563,6 +563,14 @@ header {
   transform: translateX(0);
 }
 
+.link.mobile_contact_item.supmobile_item:hover {
+  color: var(--axent-color);
+}
+
+.menu-toggle {
+  fill: var(--axent-color);
+}
+
 .portfolio_list {
   display: flex;
   gap: 30px;

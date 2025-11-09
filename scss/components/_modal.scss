@@ -156,3 +156,12 @@ height: 120px;
 .menu_container.is-open {
   transform: translateX(0);
 }
+
+
+.link.mobile_contact_item.supmobile_item:hover{
+color: var(--axent-color);
+}
+
+.menu-toggle{
+  fill: var(--axent-color);
+}
