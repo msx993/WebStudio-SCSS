@@ -27,6 +27,7 @@ color: rgba(255, 255, 255, 0.6)
 
 .footer_adress{
   display: flex;
+  flex-wrap: wrap;
   align-items: baseline;
     color: #FFFFFF;
 }

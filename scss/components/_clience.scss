@@ -63,19 +63,33 @@ color: #212121
 .client_list{
   display: flex;
   justify-content: center;
-  display: 12px;
+ 
    gap: 30px;
+flex-wrap: wrap;
 }
 
 .client_item{
   display: flex;
   align-items: center;
   justify-content: center;
-   padding: 24px 20px;
-   height: 92px;  
-   width: 170px;
+  height: 92px;
+  width: 210px;
   color: var(--text-color);
    outline:1px solid #AFB1B8;
+@media screen and (max-width: 480px)
+{
+  width: calc((100% - 30px) / 2);
+}
+
+   @media screen and (min-width: 768px){
+    width: 226px
+
+   }
+     @media screen and (min-width: 1200px){
+       
+   width: 170px;
+   }
+   
 }
 
 .client_item:hover{
