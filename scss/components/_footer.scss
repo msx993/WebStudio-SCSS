@@ -9,6 +9,9 @@ padding: 60px 0;
 
 }
 .footer_link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: var(--font-family);
 font-weight: 400;
 font-size: 16px;

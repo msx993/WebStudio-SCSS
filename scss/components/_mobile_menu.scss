@@ -14,6 +14,32 @@
     transition: transform 250ms ease-in-out;
 }
 
+@media screen and (max-width: 767px){
+
+  .header_list, .header_contact{
+display: none;
+  }
+  
+  .container{
+    outline: 1px solid green;
+}
+
+
+}
+
+
+@media screen and (min-width: 768px){
+
+  .menu-toggle{
+    display: none;
+
+  }
+  
+  .menu_container{
+  transform: translateX(1000px);
+  }
+}
+
 .menu_container.is-open {
   transform: translateX(0);
 }
