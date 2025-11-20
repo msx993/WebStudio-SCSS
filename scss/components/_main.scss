@@ -57,15 +57,25 @@ background-color: rgb(26, 85, 168);
   height: 70px;
 }
 
+@media screen and (min-width: 768px){
+ .section_form{
+  display: none;
+ }
 
-.section_list{
-
-    @media screen and (min-width: 768px){
-   display: flex;
-  flex-direction: row;
-  gap: 30px;
+ .section_list{
   flex-wrap: wrap;
-    }
+  width: calc((100% - 30px) / 2);
+ }
+  
+}
+
+.mobile_contact_tel_item{
+
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 34px;
+letter-spacing: 0.02em;
+color: #2196f3;
 }
 
 .section_title{
@@ -76,6 +86,7 @@ letter-spacing: 0.03em;
 text-align: center;
 color: #212121;
 margin-bottom: 50px;
+
 }
 
 .section_subtitle{
@@ -111,6 +122,7 @@ z-index: 1;
   position: relative;
   
 }
+
 
 
 .team_job{

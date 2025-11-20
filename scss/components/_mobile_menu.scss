@@ -45,7 +45,7 @@ display: none;
 }
 
 
-.link.mobile_contact_item.supmobile_item:hover{
+.link.mobile_contact_item:hover{
 color: var(--axent-color);
 }
 
@@ -66,7 +66,19 @@ color: #212121;
   color: var(--axent-color);
 }
 
+
+.supmobile_item{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding-top: 64px;
+  color: var(--axent-color);
+}
+
 .contact_link{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   margin-bottom: 302px;
 }
 
