@@ -737,7 +737,7 @@ header {
   transform: translateX(0);
 }
 
-.link.mobile_contact_item:hover {
+.link:hover {
   color: var(--axent-color);
 }
 
@@ -761,7 +761,7 @@ header {
 .supmobile_item {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-top: 64px;
   color: var(--axent-color);
 }

@@ -45,8 +45,8 @@ display: none;
 }
 
 
-.link.mobile_contact_item:hover{
-color: var(--axent-color);
+.link:hover{
+  color: var(--axent-color);
 }
 
 .menu-toggle{
@@ -70,7 +70,7 @@ color: #212121;
 .supmobile_item{
     display: flex;
 flex-direction: row;
-justify-content: space-between;
+justify-content: space-around;
 padding-top: 64px;
   color: var(--axent-color);
 }
