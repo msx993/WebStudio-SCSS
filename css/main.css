@@ -431,6 +431,11 @@ header {
   background-repeat: no-repeat;
 }
 
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero {
+    background-image: url("../img_2x/hero_mobile_2x");
+  }
+}
 .hero_text {
   font-family: var(--font-family);
   font-weight: 900;
@@ -476,6 +481,11 @@ header {
   height: 70px;
 }
 
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url("../img_2x/hero_tablet_2x");
+  }
+}
 @media screen and (min-width: 768px) {
   .section_form {
     display: none;
@@ -483,6 +493,11 @@ header {
   .section_list {
     flex-wrap: wrap;
     width: calc((100% - 30px) / 2);
+  }
+}
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url("../img_2x/hero_desktop_2x");
   }
 }
 .mobile_contact_tel_item {
