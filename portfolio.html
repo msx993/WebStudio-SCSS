@@ -133,15 +133,99 @@
       </ul>
       </div>
     </main>
-   <footer class="footer">
-      <div class="container">
+<footer class="footer">
+      <div class="container footer_adress">
+        <div class="footer_title">
       <a class="footer_link" href="./index.html"> Webstudio </a>
       <address>
         м. Київ, пр-т Лесі Українки,<br />
         <a href="mailto:info@devstudio.com">info@devstudio.com</a><br />
         <a href="tell:+38 096 111 11 11">+38 096 111 11 11</a>
-      </address>
+     </address>
       </div>
+      <div class="foteer">
+         <p class="messenger">Приєднуйтесь</p>
+            <ul class="social_list">
+            <li class="social_item">
+                <svg class="social_icon">
+                    <use href="./img/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+
+            </li>
+            <li class="social_item">
+                <svg class="social_icon">
+                     <use href="./img/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+            </li>
+            <li class="social_item">
+                <svg class="social_icon">
+                     <use href="./img/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+
+            </li>
+            <li class="social_item">
+                <svg class="social_icon">
+                     <use href="./img/symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+            </li>
+
+         </ul>
+         </div>
+         <div>
+  <form class="modal_form">
+  <h1 class="modal_title_text">Залиште свої дані, ми вам передзвонимо</h1>
+  <label class="modal_label">
+    <span>Підпишітcя на розсилку</span>
+    <input class="input_label"
+    type="text"
+    required
+    >
+  </label>
+  <button class="footer_button">Підпишітися
+    <!-- <svg>
+      <use href=""></use>
+    </svg> -->
+  </button>
+ </div>
+        </div>
     </footer>
+    <div class="menu_container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
+<div class="mobile_menu">
+      <ul class="mobile_list_menu">
+        <li><a href="./index.html" class="link">Студія</a></li>
+        <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
+        <li><a href="./contacts.html" class="link contact_link">Контакти</a></li>
+      </ul>
+
+<ul class="mobile_contact_menu">
+  <li class="mobile_contact_tel_item">+38 096 111 11 11</li>
+  <li class="mobile_contact_item">info@devstudio.com</li>
+</ul>
+
+<ul class="supmobile_menu">
+  <li class="supmobile_item">Instagram</li>
+  <li class="supmobile_item">Twitter</li>
+  <li class="supmobile_item">Facebook</li>
+  <li class="supmobile_item">LinkedIn</li>
+</ul>
+
+    </div>
+  <script src="./js/modal.js"></script>
+<script src="./js/mobile_menu.js"></script>
   </body>
 </html>
