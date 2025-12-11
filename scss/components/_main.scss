@@ -105,9 +105,16 @@ background-color: rgb(26, 85, 168);
  }
 
 .section_list{
-  display: flex;
+display: flex;
 flex-direction: row;
+margin-left: auto;
+margin-right: auto;
 gap: 30px;
+
+}
+
+.section_foto{
+  width: 270px;
 }
 
 .section_job_list{
