@@ -109,6 +109,13 @@ background-color: rgb(26, 85, 168);
   display: flex;
  }
 
+ .section_title{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+gap: 30px;
+}
+
 }
 
 

@@ -152,6 +152,11 @@ button {
   margin-bottom: 20px;
 }
 
+@media screen and (max-width: 767px) {
+  .input_label {
+    width: px;
+  }
+}
 header {
   padding: 24px 0;
 }
@@ -517,6 +522,12 @@ header {
 @media screen and (min-width: 1200px) {
   .section_form {
     display: flex;
+  }
+  .section_title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
   }
 }
 .mobile_contact_tel_item {
