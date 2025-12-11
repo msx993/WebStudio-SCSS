@@ -75,6 +75,27 @@ background-color: rgb(26, 85, 168);
 
 @media screen and (min-width: 768px){
 
+  .container{
+    width: 768px;
+  }
+
+  .section_text_list{
+      display: flex;
+  flex-wrap: wrap;
+  width: calc((100% - 30px) / 2);
+  }
+
+ .section_list{
+  display: flex;
+  flex-wrap: wrap;
+  width: calc((100% - 30px) / 2);
+ }
+
+   .section_form{
+  display: none;
+ }
+
+}
 
 
 @media (min-device-pixel-ratio: 2),
@@ -87,16 +108,6 @@ background-color: rgb(26, 85, 168);
 }
 
 
- .section_list{
-  flex-wrap: wrap;
-  width: calc((100% - 30px) / 2);
- }
-  
-}
-
- .section_form{
-  display: none;
- }
 
 
 
