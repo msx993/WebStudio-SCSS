@@ -95,7 +95,27 @@ background-color: rgb(26, 85, 168);
 
 
 @media screen and (min-width: 1200px){
+
+  .container{
+    width: 1200px;
+  }
   
+ .section_form{
+  display: flex;
+ }
+
+.section_list{
+  display: flex;
+flex-direction: row;
+gap: 30px;
+}
+
+.section_job_list{
+display: flex;
+flex-direction: row;
+gap: 30px;
+}
+
 @media (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -105,16 +125,7 @@ background-color: rgb(26, 85, 168);
   }
 }
 
- .section_form{
-  display: flex;
- }
 
- .section_title{
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-gap: 30px;
-}
 
 }
 
