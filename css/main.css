@@ -530,6 +530,10 @@ header {
   padding: 94px 0;
 }
 
+.section_job_list {
+  display: none;
+}
+
 .team {
   background-color: #F5F4FA;
 }
@@ -557,6 +561,8 @@ header {
   .section_list {
     display: flex;
     flex-wrap: wrap;
+  }
+  .section_list > li {
     width: calc((100% - 30px) / 2);
   }
   .section_form {
@@ -581,6 +587,9 @@ header {
     margin-left: auto;
     margin-right: auto;
     gap: 30px;
+  }
+  .section_list > li {
+    width: calc((100% - 90px) / 4);
   }
   .section_foto {
     width: 270px;
