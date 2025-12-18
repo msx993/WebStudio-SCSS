@@ -64,17 +64,22 @@ transition-duration: 500ms;
 }
 
 .modal{
-  position: absolute;
+position: absolute;
   top: 50%;
   left: 50%;
+  background-color: #FFFFFF ;
+  transition: transform 500ms;
+  padding: 40px;
+  height: 480px;
+  width: 609px;
+    transform: translate(-50%, -50%);
+  @media screen and (min-width: 1200px){
   min-width: 400px;
   min-height: 300px;
   padding: 15px;
   height: 581px;
   width: 528px;
-  background-color: #FFFFFF ;
-  transform: translate(-50%, -50%);
-  transition: transform 500ms;
+  }
 }
 
 .modal_label{
