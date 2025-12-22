@@ -265,14 +265,11 @@ header {
     margin-top: 7px;
     background-color: var(--axent-color);
   }
-  .header-contact::after {
-    content: "";
-    position: absolute;
+  .header_contact::after {
     display: flex;
-    padding: 2px 33px;
-    border-radius: 10px;
-    margin-top: 7px;
-    background-color: var(--axent-color);
+    flex-direction: row;
+    gap: 10px;
+    padding: 21px 15px;
   }
   .header_list {
     display: flex;
@@ -282,17 +279,19 @@ header {
   }
   .header_contact {
     display: flex;
-    margin-left: auto;
-    gap: 50px;
-    align-items: center;
+    flex-direction: column;
+    gap: 10px;
   }
   .header_item {
     transition: color 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   .header_contact_item {
-    transition: color 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.02em;
+    color: #757575;
   }
   .header_item:hover {
     color: var(--axent-color);
@@ -744,14 +743,21 @@ header {
   position: absolute;
   top: 50%;
   left: 50%;
-  min-width: 400px;
-  min-height: 300px;
-  padding: 15px;
-  height: 581px;
-  width: 528px;
   background-color: #FFFFFF;
-  transform: translate(-50%, -50%);
   transition: transform 500ms;
+  padding: 40px;
+  height: 480px;
+  width: 609px;
+  transform: translate(-50%, -50%);
+}
+@media screen and (min-width: 1200px) {
+  .modal {
+    min-width: 400px;
+    min-height: 300px;
+    padding: 15px;
+    height: 581px;
+    width: 528px;
+  }
 }
 
 .modal_label {
@@ -826,6 +832,15 @@ header {
 
 .btn_list {
   flex-wrap: wrap;
+}
+
+.portfolio_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio_list > li {
+  width: calc((100% - 30px) / 2);
 }
 
 .menu_container {
