@@ -85,9 +85,16 @@ background-color: rgb(26, 85, 168);
 
   .section_text_list{
       display: flex;
+      justify-content: space-around;
   flex-wrap: wrap;
-  width: calc((100% - 30px) / 2);
   }
+
+.section_text_list > li{
+    width: calc((100% - 30px) / 2);
+    padding: 30px;
+}
+
+
 
  .section_list{
   display: flex;

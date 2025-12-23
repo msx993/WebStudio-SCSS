@@ -4,15 +4,15 @@
     margin: 0 auto;
     @media screen and (min-width: 480px) {
         width: 480px;
-        outline: 1px solid red;
+        
     }
     @media screen and (min-width: 768px) {
         width: 768px;
-        outline: 1px solid blue;
+        
     }
     @media screen and (min-width: 1200px) {
         width: 1230px;
-        outline: 1px solid green;
+        
     }
 }
 
